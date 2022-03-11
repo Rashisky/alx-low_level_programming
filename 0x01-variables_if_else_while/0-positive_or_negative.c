@@ -3,14 +3,10 @@
 /* more headers goes there */
 #include <stdio.h>
 
-/**
+/*
+ * betty style doc for function main goes there
  * main - Calculate if n is positive or negative
- * return - Always 0 (Success)
- */
-
-/*betty style doc for function main goes there
- * main - Calculate if n is positive or negative
- * return - Always 0 (Success)
+ * return - Always 0 (Success), print either the value of the number
  */
 
 int main(void)
