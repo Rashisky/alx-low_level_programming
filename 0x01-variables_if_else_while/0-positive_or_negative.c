@@ -6,6 +6,7 @@
 /*
  * betty style doc for function main goes there
  * main - Calculate if n is positive or negative
+ * main function - calculate either positive or negative of the number
  * return - Always 0 (Success), print either the value of the number
  */
 
