@@ -3,6 +3,7 @@
 /* more headers goes there */
 #include <stdio.h>
 
+
 /*
  * betty style doc for function main goes there
  * main - Calculate if n is positive or negative
