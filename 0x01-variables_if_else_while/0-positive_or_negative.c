@@ -3,12 +3,12 @@
 /* more headers goes there */
 #include <stdio.h>
 
-/**
- * main - calculate if n is positive or negative
- * Result - Always 0 (Success)
- */
 
-/* betty style doc for function main goes there */
+/**
+ * betty style doc for function main goes there
+ * main - Calculate if n is positive or negative
+ * Resul - Always 0 (Success)
+ */
 
 int main(void)
 {
@@ -20,7 +20,7 @@ int main(void)
 	if (n < 0)
 		printf("%d %s\n", n, "is negative");
 	else
-		if (n==0)
+		if (n == 0)
 			printf("%d %s\n", n, "is zero");
 		else
 			printf("%d %s\n", n, "is positive");
