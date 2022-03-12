@@ -34,8 +34,8 @@ int main(void)
 	else
 		if (l > 5)
 			printf("%s %d %s %d %s\n", "Last digit of", \
-					n, "is", l, "and is \n
-				greater than 5");
+					n, "is", l, "and is \
+					greater than 5");
 	       	else
 			if (l == 0)
 				printf("%s %d %s %d %s\n", \
