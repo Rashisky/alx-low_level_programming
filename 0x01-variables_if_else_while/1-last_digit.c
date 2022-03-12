@@ -43,7 +43,7 @@ int main(void)
 						n, "is", l, "and is 0");
 			else
 				printf("%s %d %s %d %s\n", \
-						"Last digit of", n, "is", <
+						"Last digit of", n, "is", \
 						l, "and is less than 6 and not 0");
 
 	return (0);
