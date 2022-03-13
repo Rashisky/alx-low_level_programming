@@ -2,8 +2,8 @@
 
 /**
  * main - prints the alphabet in lowercase and then in uppercase
- */
-/* result - always 0 (success)*/
+ * result: always 0 (success)
+  */
 int main(void)
 {
 	char small;
