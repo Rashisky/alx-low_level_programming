@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  *  main - assign number to the variable n and execute
- *  Return: always 0 (Success) 
+ *  Return: always 0 (Success)
  */
 int main(void)
 {
@@ -18,7 +18,7 @@ int main(void)
 	/* your code goes there */
 	l = n % 10;
 	if (n > 0)
-		{
+	{
 			if (l > 5)
 				printf("%s %d %s %d %s\n", "Last digit of", \
 						n, "is", l, "and is greater than 5");
@@ -29,8 +29,9 @@ int main(void)
 				else
 					printf("%s %d %s %d %s\n", "Last digit of", \
 							n, "is", l, "and is 0");		
-		}
+	}
 	else
+	{
 		if (l > 5)
 			printf("%s %d %s %d %s\n", "Last digit of", \
 					n, "is", l, "and is greater than 5");
@@ -41,6 +42,7 @@ int main(void)
 			else
 				printf("%s %d %s %d %s\n", "Last digit of", \
 						n, "is", l, "and is less than 6 and not 0");
+	}
 
 	return (0);
 }
