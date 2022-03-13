@@ -4,11 +4,10 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
-/* main(void) - assign number to the variable n and execute */
-/* return - always 0 (Success) */
-/* function main - assign number to variable and execute */
-/* int main(void) - assign number to the variable n and execute */
-/* return value - always 0 (Success) */
+/**
+ *  main - assign number to the variable n and execute
+ *  Return: always 0 (Success) 
+ */
 int main(void)
 {
 	int n;
