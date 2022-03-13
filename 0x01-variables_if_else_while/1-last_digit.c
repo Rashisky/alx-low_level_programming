@@ -7,6 +7,7 @@
 /**
  * main - assign number to the variable n and execute
  * result - always 0 (Success)
+ */
 
 int main(void)
 {
