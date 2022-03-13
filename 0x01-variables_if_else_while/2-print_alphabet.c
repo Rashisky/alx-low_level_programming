@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase and then in uppercase
+ * main(i)? - prints the alphabet in lowercase and then in uppercase
  */
-/* result - always 0 (Success) gives the result */
+/* result - always 0 (success)*/
 int main(void)
 {
 	char small;
