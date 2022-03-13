@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
-/* main - assign number to the variable n and execute */
+/* main(void) - assign number to the variable n and execute */
 /* return - always 0 (Success) */
 /* function main - assign number to variable and execute */
 /* return value - always 0 (Success) */
