@@ -3,15 +3,16 @@
 /**
  * main - prints the alphabet in lowercase
  * and then in uppercase
- * result - always 0 (Success)
+ * return - always 0 (Success)
  */
 int main(void)
 {
 	char small;
 	char cap;
+
 	for (small = 'a'; small <= 'z'; small++)
-	       putchar(small);
-	for (cap = 'A'; cap <= 'Z'; cap ++)
+		putchar(small);
+	for (cap = 'A'; cap <= 'Z'; cap++)
 		putchar(cap);
 	putchar('\n');
 	return (0);
