@@ -7,7 +7,7 @@
 /* main(void) - assign number to the variable n and execute */
 /* return - always 0 (Success) */
 /* function main - assign number to variable and execute */
-/* main(void) - assign number to the variable n and execute */
+/* main() - assign number to the variable n and execute */
 /* return value - always 0 (Success) */
 int main(void)
 {
