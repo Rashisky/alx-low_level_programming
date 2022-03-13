@@ -3,9 +3,7 @@
 /**
  * main - prints the alphabet in lowercase and then in uppercase
  */
-/**
- * return - always 0 (Success)
- */
+/* return - always 0 (Success) */
 int main(void)
 {
 	char small;
