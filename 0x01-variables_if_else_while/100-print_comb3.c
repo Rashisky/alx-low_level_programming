@@ -18,15 +18,10 @@ int main(void)
 				continue;
 			else
 			{
-				if ('a''b' == 'b''a')
-					continue;
-				else
-				{
-					putchar(a);
-					putchar(b);
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(a);
+				putchar(b);
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
