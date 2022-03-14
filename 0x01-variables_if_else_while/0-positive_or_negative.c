@@ -5,8 +5,9 @@
 
 
 /**
- * main - calculate either positive or negative of the number
- * Return: Always 0 (Success)
+ * main function : prints something
+ * calculate either positive or negative of the number
+ * result - Always 0 (Success)
  */
 
 int main(void)
@@ -24,4 +25,5 @@ int main(void)
 		else
 			printf("%d %s\n", n, "is positive");
 	return (0);
+
 }
