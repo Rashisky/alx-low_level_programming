@@ -5,9 +5,9 @@
 
 
 /**
- * main function : prints something
+ * main - prints something
  * calculate either positive or negative of the number
- * result - Always 0 (Success)
+ * return: Always 0 (Success)
  */
 
 int main(void)
