@@ -4,8 +4,7 @@
 #include <stdio.h>
 
 
-/*
- * betty style doc for function main goes there
+/**
  * main - calculate either positive or negative of the number
  * Return: Always 0 (Success)
  */
