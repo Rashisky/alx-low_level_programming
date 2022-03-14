@@ -7,7 +7,7 @@
 int main(void)
 {
 	char small;
-	char cap;	
+	char cap;
 
 	for (small = 'a'; small <= 'z'; small++)
 		putchar(small);
