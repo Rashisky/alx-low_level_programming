@@ -4,15 +4,12 @@
  * main - prints alphabets
  * Return: 0 means Success
  */
-int main(void)
+print_alphabet(i)
 {
 	char i;
 
-	print_alphabet(i)
-	{
-		for (i = 'a'; i <= 'z'; i++)
-			_putchar(i);
+	for (i = 'a'; i <= 'z'; i++)
+		_putchar(i);
 	_putchar('\n');
-	}
 	return (0);
 }
