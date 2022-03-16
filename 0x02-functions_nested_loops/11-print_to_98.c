@@ -1,21 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - prints all natural numbers
+ * print_to_98 - prints all natural numbers
+ * @n: integer argument
  * Return: Always 0 Success
  */
-int main(void)
+void print_to_98(int n)
 {
-	int n;
-
-	print_to_98(n)
+	for (n = '0'; n <= '98'; n++)
 	{
-		for (n = '0'; n <= '98'; n++)
-		{
-			putchar(n);
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(n);
+		putchar(',');
+		putchar(' ');
 	}
 	return (0);
 }

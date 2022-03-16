@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - prints the 9 times table
+ * times_table - prints the 9 times table
  * Return: Always 0 Success
  */
-int main(void)
+int times_table(void)
 {
 	int k;
 	int u;
@@ -15,12 +15,12 @@ int main(void)
 		for (u = 0; u <= 9; u++)
 		{
 			z = u * k;
-			times_table(z);
-			times_table(",");
-			times_table(" ");
-			times_table(" ");
+			_putchar(z);
+			_putchar(",");
+			_putchar(" ");
+			_putchar(" ");
 		}
 	}
-	times_table('\n');
+	_putchar('\n');
 	return (0);
 }

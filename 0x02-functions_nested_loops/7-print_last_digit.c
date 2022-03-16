@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * main - print last digit of an integer
+ * print_last_digit - print last digit of an integer
+ * @int: takes an integer value
  * Return: always 0
  */
-int main(void)
+int print_last_digit(int)
 {
 	int n;
 	int t;
 
-	t = print_last_digit(n % 10);
+	t = _putchar(n % 10);
 	return (t);
 }

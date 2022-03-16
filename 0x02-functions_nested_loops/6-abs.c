@@ -1,14 +1,19 @@
 #include "main.h"
 
 /**
- * main - computes absolute value
+ * _abs - computes absolute value
+ * @int: takes in an integer arguments
  * Return: 0 means success
  */
-int main(void)
+int _abs(int)
 {
 	int k;
 
-	k = abs(-1);
-	_abs(k);
-	return (0);
+	if (k >= 0)
+		_putchar(k);
+	else
+		{
+			k  = -1 * k;
+			_putchar(z);
+		}
 }

@@ -2,13 +2,11 @@
 
 /**
  * main - checks for lowercase character
- * Return - 1 means Success, 0 means otherwise
+ * Return: 1 for lowercase, 0 for upper
  */
-int main(void)
+int _islower(int c)
 {
-	char u = 'c';
-
-	if (int_islower(u))
+	if (c >= 'a' && c <= 'z')
 		return (1);
 	else
 		return (0);
