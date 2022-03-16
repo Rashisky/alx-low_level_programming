@@ -1,19 +1,12 @@
 #include "main.h"
-
 /**
- * _abs - computes absolute value
- * @int: takes in an integer arguments
- * Return: 0 means success
+ * _abs - function that prints the absolute value of a number
+ * @n: takes in an integer
+ * Return: 1 if > 0, 0 if == 0, positive if negative
  */
-int _abs(int)
+int _abs(int n)
 {
-	int k;
-
-	if (k >= 0)
-		_putchar(k);
-	else
-		{
-			k  = -1 * k;
-			_putchar(z);
-		}
+	if (n < 0)
+		return (n * -1);
+	return (n);
 }
