@@ -2,14 +2,12 @@
 
 /**
  * main - prints alphabets
- * Return: 0 means Success
  */
-print_alphabet(i)
+void print_alphabet(void)
 {
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
 		_putchar(i);
 	_putchar('\n');
-	return (0);
 }
