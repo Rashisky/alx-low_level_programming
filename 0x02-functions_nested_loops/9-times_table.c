@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - prints the 9 times table
@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (u = 0; u <= 9; u++)
 		{
-			z = u*k;
+			z = u * k;
 			times_table(z);
 			times_table(",");
 			times_table(" ");

@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - add two integers
@@ -13,6 +13,6 @@ int main(void)
 	int add(num1, num2)
 	{
 		num3 = num1 + num2;
-		result (num3)
+		return (num3);
 	}
 }

@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - prints 10 times the alphabet in lowercase
@@ -8,6 +8,7 @@ int main(void)
 {
 	char i;
 	int k = 0;
+
 	print_alphabet_x10(void)
 	{
 		while (k <= 10)

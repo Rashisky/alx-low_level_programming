@@ -1,10 +1,10 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - checks for alphabetic character
  * Return: 0 means success
  */
-int main()
+int main(void)
 {
 	char alpha = 'c';
 

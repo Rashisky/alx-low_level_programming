@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - print last digit of an integer
@@ -8,7 +8,7 @@ int main(void)
 {
 	int n;
 	int t;
-	
+
 	t = print_last_digit(n % 10);
 	return (t);
 }

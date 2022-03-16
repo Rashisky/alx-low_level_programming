@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - prints all natural numbers
@@ -19,5 +19,3 @@ int main(void)
 	}
 	return (0);
 }
-
-	

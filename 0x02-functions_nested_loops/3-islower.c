@@ -1,6 +1,7 @@
-#include <main.h>
+#include "main.h"
 
-/** main - checks for lowercase character
+/**
+ * main - checks for lowercase character
  * Return - 1 means Success, 0 means otherwise
  */
 int main(void)
