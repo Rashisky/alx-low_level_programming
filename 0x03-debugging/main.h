@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * positive_or_negative - Determines if a number is positive or negative
+ * @n: integer argument
+ * Return: 0 means Success
+ */
+
 int positive_or_negative(int n)
 {
 	srand(time(0));
@@ -9,7 +15,7 @@ int positive_or_negative(int n)
 	/* your code goes there */
 	if (n < 0)
 		printf("%d %s\n", n, "is negative");
-	else	
+	else
 		if (n == 0)
 			printf("%d %s\n", n, "is zero");
 		else
