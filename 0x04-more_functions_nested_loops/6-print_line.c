@@ -8,6 +8,13 @@
 
 void print_line(int n)
 {
-	_putchar('_' * n);
+	int k;
+
+	k = 0;
+	while (k < n)
+	{
+		_putchar('_');
+		k++;
+	}
 	_putchar('\n');
 }
