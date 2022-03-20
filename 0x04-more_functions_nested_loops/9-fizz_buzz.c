@@ -25,7 +25,7 @@ int main(int n)
 		else
 			printf("%d ", k);
 	}
-	printf("\n");
+	_putchar("\n");
 
 	return (0);
 }
