@@ -16,14 +16,20 @@ int main(int n)
 	n = 100;
 	for (k = 1; k <= n; k++)
 	{
-		if (k % 3 == 0 && k % 5 == 0)
-			printf("FizzBuzz ");
-		else if (k % 5 == 0)
-			printf("Buzz ");
-		else if (k % 3 == 0)
-			printf("Fizz ");
+		if (k != n)
+		{
+			if (k % 3 == 0 && k % 5 == 0)
+				printf("FizzBuzz ");
+			else if (k % 5 == 0)
+				printf("Buzz ");
+			else if (k % 3 == 0)
+				printf("Fizz ");
+			else
+				printf("%d ", k);
+		}
 		else
-			printf("%d ", k);
+			if (k % 5 == 0)
+				printf("Buzz");
 	}
 	putchar('\n');
 
