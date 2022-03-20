@@ -17,7 +17,7 @@ int main(int n)
 	for (k = 1; k <= n; k++)
 	{
 		if (k % 3 == 0 && k % 5 == 0)
-			printf("Fizz Buzz ");
+			printf("FizzBuzz ");
 		else if (k % 5 == 0)
 			printf("Buzz ");
 		else if (k % 3 == 0)
