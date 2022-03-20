@@ -1,35 +1,35 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - prints 1 to 100, with multiples of 3 replaced
- * with Fizz, multiples of 5 replaced with Buzz and
- * multiples of 5,3 replaced with FizzBuzz
- * Return: 0 means success
+ * main -  checks for checks for a digit (0 through 9).
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	int k;
+	int x;
 
-	n = 100;
-	for (k = 1; k <= n; k++)
+	for (x = 1; x <= 100; x++)
 	{
-		if (k != n)
+		if (x % 3 == 0 || x % 5 == 0)
 		{
-			if (k % 3 == 0 && k % 5 == 0)
-				printf("FizzBuzz ");
-			else if (k % 5 == 0)
-				printf("Buzz ");
-			else if (k % 3 == 0)
-				printf("Fizz ");
-			else
-				printf("%d ", k);
+			if (x % 3 == 0)
+			{
+				printf("Fizz");
+			}
+			if (x % 5 == 0)
+			{
+				printf("Buzz");
+			}
 		}
 		else
-			printf("Buzz");
+		{
+			printf("%d", x);
+		}
+		if (x != 100)
+		{
+		putchar(' ');
+		}
 	}
 	putchar('\n');
-
 	return (0);
 }
