@@ -29,7 +29,14 @@ int main(int n)
 		}
 		else
 		{
-			printf("Buzz");
+                        if (k % 3 == 0 && k % 5 == 0)
+                                printf("FizzBuzz");
+                        else if (k % 5 == 0)
+                                printf("Buzz");
+                        else if (k % 3 == 0)
+                                printf("Fizz ");
+                        else
+                                printf("%d", k);
 		}
 	}
 	putchar('\n');
