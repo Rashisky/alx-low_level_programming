@@ -4,7 +4,7 @@
  * _memset - fills memory with a constant byte
  * @s: array to be filled
  * @b: constant to be used for filling
- * @b: numbers of time 'b' is to be filled
+ * @n: numbers of time 'b' is to be filled
  *
  * Return: a character
  */
