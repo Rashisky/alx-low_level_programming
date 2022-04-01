@@ -1,3 +1,4 @@
 #!/bin/bash
-ar -rc liball.a $(gcc -Wall -pedantic -Werror -Wextra -c *.c | ls *.o)
+gcc -Wall -pedantic -Werror -Wextra -c *.c
+ar -rc liball.a *.co
 ranlib liball.a
