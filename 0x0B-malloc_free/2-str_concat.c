@@ -20,9 +20,9 @@ char *str_concat(char *s1, char *s2)
 	n = 0;
 
 	if (s1 == NULL)
-		return (s2);
+		return ("");
 	if (s2 == NULL)
-		return (s1);
+		return ("");
 	while (s1[i] != '\0')
 		i++;
 	while (s2[k] != '\0')
