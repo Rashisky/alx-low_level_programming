@@ -16,11 +16,11 @@ char *_strdup(char *str)
 	int k = 0;
 	int t = 0;
 
-	while (str[t] != '\0')
-		t++;
 	if (str == NULL)
 		return (NULL);
-	array = malloc(sizeof(*array) * t);
+	while (str[t] != '\0')
+		t++;
+	array = malloc(sizeof(*array) * (t + 1));
 	if (array == NULL)
 		return (NULL);
 	while (k < t)
