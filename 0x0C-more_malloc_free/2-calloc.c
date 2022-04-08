@@ -17,7 +17,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	sum = nmemb * size;
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	mem = malloc(nmemb * sum);
+	mem = malloc(sum);
 	if (mem == NULL)
 		return (NULL);
 	while (t < sum)
