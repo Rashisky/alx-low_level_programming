@@ -14,12 +14,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	unsigned int t, sum;
 
 	t = 0;
+	sum = nmemb * size;
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	mem = malloc(nmemb * size + 1);
+	mem = malloc(nmemb * sum);
 	if (mem == NULL)
 		return (NULL);
-	sum = nmemb * size;
 	while (t < sum)
 	{
 		mem[t] = 0;
