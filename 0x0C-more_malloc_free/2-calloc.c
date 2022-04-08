@@ -25,6 +25,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		mem[t] = 0;
 		t++;
 	}
-	mem[t] = '\0';
 	return (mem);
 }
