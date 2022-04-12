@@ -32,7 +32,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		copy->name[i] = name[i];
 		i++;
 	}
-	copy->name[i] = '\0';
+/*	copy->name[i] = '\0';*/
 
 	copy->age = age;
 	i = 0;
