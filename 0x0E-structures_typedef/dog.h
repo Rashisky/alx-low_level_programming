@@ -1,14 +1,13 @@
 #ifndef __STRUCT_DOG__
 #define __STRUCT_DOG__
 
-
 /**
- * struct  dog - struct function that initializes a variable type struct dog
+ * struct dog - a function that takes in 3 arguments which are:
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
  *
- * Description: This takes in 3 arguments declaration
+ * Description: This give the type an owner of such dog
  */
 
 struct dog
@@ -17,5 +16,6 @@ struct dog
 	float age;
 	char *owner;
 };
+
 
 #endif
