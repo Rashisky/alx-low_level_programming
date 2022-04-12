@@ -17,7 +17,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 	sn = so = i = 0;
 	copy = malloc(sizeof(*copy));
 	if (copy == NULL)
+	{
+		free(copy);
 		return (NULL);
+	}
 	while (name[sn])
 		sn++;
 	while (owner[so])
