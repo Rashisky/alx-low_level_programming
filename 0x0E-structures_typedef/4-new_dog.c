@@ -12,9 +12,9 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *copy;
-	int sn, so;
+	int sn, so, i;
 
-	sn = so = 0;
+	sn = so = i = 0;
 	copy = malloc(sizeof(*copy));
 	if (copy == NULL)
 		return (NULL);
@@ -27,9 +27,20 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (copy->name == NULL || copy->owner == NULL)
 		return (NULL);
-	copy->name = name;
+	while (name[i])
+	{
+		copy->name[i] = name[i];
+		i++;
+	}
+	copy->name[i] = '\0';
+
 	copy->age = age;
-	copy->owner = owner;
+	i = 0;
+	while (owner[i])
+	{
+		copy->owner[i] = owner[i];
+		i++;
+	}
 
 	return (copy);
 }
