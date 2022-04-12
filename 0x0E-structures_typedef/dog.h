@@ -21,10 +21,9 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 
 /**
- * dog_t - New type defintion
- * Description: This is the new data type for struct dog data type
+ * dog_t - typedef with the name dog_t
+ * Description: This give the struct dog a new data type dog_t
  */
-
 typedef struct dog dog_t;
 
 #endif
