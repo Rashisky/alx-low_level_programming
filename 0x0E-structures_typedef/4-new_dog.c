@@ -29,7 +29,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 	copy->owner = malloc(so + 1);
 
 	if (copy->name == NULL || copy->owner == NULL)
+	{
+		free(copy->name);
+		free(copy->owner);
+		free(copy);
 		return (NULL);
+	}
 	while (name[i])
 	{
 		copy->name[i] = name[i];
