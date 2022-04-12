@@ -1,0 +1,2 @@
+#!/bin/bash
+THIS IS PROJECTS ON STRUC, TYPEDEF etc
