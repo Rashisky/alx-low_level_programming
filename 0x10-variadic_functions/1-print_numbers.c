@@ -26,7 +26,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		{
 			s = varg(nums, int);
 			printf("%d", s);
-			if (i != (n -1) && separator != NULL)
+			if (i != (n - 1) && separator != NULL)
 			{
 				printf("%s", separator);
 			}
