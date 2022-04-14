@@ -24,12 +24,12 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		start(nums, n);
 		for (i = 0; i < n; i++)
 		{
-			if (i && separator != NULL)
+			s = varg(nums, int);
+			printf("%d", s);
+			if (i != (n -1) && separator != NULL)
 			{
 				printf("%s", separator);
 			}
-			s = varg(nums, int);
-			printf("%d", s);
 		}
 		printf("\n");
 
