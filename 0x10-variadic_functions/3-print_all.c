@@ -8,7 +8,8 @@
 
 /**
  * print_all - function that prints anything
- * @format: constant variable pointer that cannot dereference nor change address
+ * @format: constant variable pointer that cannot
+ * dereference nor change address
  * if string is NULL, print (nil), instead any other char should be ignored
  *
  * Return: Nothing
@@ -22,6 +23,7 @@ void print_all(const char * const format, ...)
 	while (*(format + num))
 		num++;
 	va_list all;
+
 	start(all, format);
 	while (i < num)
 	{
