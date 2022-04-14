@@ -12,14 +12,14 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
+	int sum = 0;
+	unsigned int k;
+	va_list args;
+
 	if (n == 0)
 	{
 		return (0);
 	}
-	int sum = 0;
-	unsigned int k;
-
-	va_list args;
 	start(args, n);
 	for (k = 0; k < n; k++)
 	{

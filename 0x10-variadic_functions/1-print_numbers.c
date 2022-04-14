@@ -16,10 +16,10 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i, s;
+	va_list nums;
 
 	if (separator)
 	{
-		va_list nums;
 		start(nums, n);
 		for (i = 0; i < n; i++)
 		{
