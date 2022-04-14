@@ -16,15 +16,9 @@ int sum_them_all(const unsigned int n, ...)
 	unsigned int k;
 	va_list args;
 
-	if (n == 0)
-	{
-		return (0);
-	}
 	start(args, n);
 	for (k = 0; k < n; k++)
-	{
 		sum += varg(args, int);
-	}
 	end(args);
 
 	return(sum);
