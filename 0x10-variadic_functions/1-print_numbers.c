@@ -30,7 +30,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			s = varg(nums, int);
 			printf("%d", s);
 		}
-		end(nums);
 		printf("\n");
+
+		end(nums);
 	}
 }
