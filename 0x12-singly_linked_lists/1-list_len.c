@@ -2,7 +2,8 @@
 
 
 /**
- * print_list - function that prints all the elements of a list_t list
+ * list_len - function that returns the number of
+ * elements of a list_t list
  * @h: Takes in a pointer to struct list_t parameter
  * if str is NULL, print [0] (nil)
  *
