@@ -29,5 +29,5 @@ list_t *add_node(list_t **head, const char *str)
 	/* Where address *head = 00000000 */
 	/* and while the value is NULL */
 
-	return (ret->next);
+	return (*head);
 }
