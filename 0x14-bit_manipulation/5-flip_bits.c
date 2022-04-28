@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * clear_bit - function that returns the number of bits
+ * flip_bits - function that returns the number of bits
  * you would need to flip to get from one number to another
- * @n: pointer of an unsigned long int.
- * @index: index of the bit.
+ * @n: unsigned long int parameter.
+ * @m: unsigned int m.
  *
  * Return: 1 if it worked, -1 if it didn't.
  */
-int clear_bit(unsigned long int *n, unsigned int index)
+unsigned int flip_bits(unsigned long int n, unsigned int m)
 {
 	unsigned int t;
 
