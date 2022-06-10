@@ -4,8 +4,8 @@
 #include <string.h>
 
 /**
- * function that adds a new node at the beginning of
- * a dlistint_t list.
+ * add_dnodeint - function that adds a new node at
+ * the beginning of dlistint_t list.
  * @head: the pointer to the first node
  * @n: the data value of the node
  *
@@ -22,7 +22,6 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	{
 		return (NULL);
 	}
-	
 	temp->n = n;
 	temp->prev = NULL;
 

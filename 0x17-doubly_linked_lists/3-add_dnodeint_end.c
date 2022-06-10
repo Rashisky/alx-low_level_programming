@@ -4,8 +4,8 @@
 #include <string.h>
 
 /**
- * function that adds a new node at the end of a
- * dlistint_t list
+ * add_dnodeint_end - function that adds a new node
+ * at the end of a dlistint_t list
  * @head: the pointer to the first node
  * @n: the data value of the node
  *
@@ -22,7 +22,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	{
 		return (NULL);
 	}
-	
+
 	temp->n = n;
 	temp->next = NULL;
 
