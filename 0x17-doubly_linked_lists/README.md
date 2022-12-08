@@ -1,2 +1,0 @@
-#!/bin/bash
-DOUBLY LINKED LISTS
