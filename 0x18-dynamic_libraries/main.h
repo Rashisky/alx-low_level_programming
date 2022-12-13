@@ -1,5 +1,7 @@
-#ifndef _RASHISKY_
-#define _RASHISKY_
+#ifndef __DYNAMIC_LIB__
+#define __DYNAMIC_LIB__
+
+#include <stddef.h>
 
 int _putchar(char c);
 int _islower(int c);
@@ -22,4 +24,4 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
-#endif
+#endif /* end of dynamic library */

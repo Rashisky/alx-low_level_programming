@@ -1,2 +1,2 @@
 #!/bin/bash
-DYNAMIC LIBRARIES
+Continuation to library. Dynamic library
