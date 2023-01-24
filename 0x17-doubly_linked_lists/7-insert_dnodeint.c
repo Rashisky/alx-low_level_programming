@@ -16,23 +16,24 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	dlistint_t *new_node, *temp2 = temp;
 	const int u = (const int)n;
 
-	if (*h)
+	if (*h || count == idx)
 	{
-		if (count == idx)
-		{
-			add_dnodeint(h, u);
-			return (*h);
-		}
-
 		new_node = malloc(sizeof(dlistint_t));
 		if (new_node == NULL)
 			return (NULL);
 
+		new_node->n = n;
+		if (count == idx)
+		{
+			new_node->next = NULL;
+			new_node->prev = NULL;
+			add_dnodeint(h, u);
+			return (new_node);
+		}
 		while (temp)
 		{
 			if (count == idx)
 			{
-				new_node->n = n;
 				new_node->next = temp2->next;
 				new_node->prev = temp->prev;
 				temp->prev = new_node;
