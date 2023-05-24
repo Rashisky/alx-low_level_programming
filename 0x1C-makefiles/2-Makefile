@@ -1,0 +1,11 @@
+# name of the executable: school
+# rules (all) -> all rule builds your executable
+# Variable: CC, SRC, OBJ, NAME
+
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+
+all: ${OBJ}
+	${CC} ${OBJ} -o ${NAME}
