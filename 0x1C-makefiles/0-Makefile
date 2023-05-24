@@ -1,4 +1,0 @@
-# name of executable: school
-# rules: all -> The all rule builds the executable
-all:
-	gcc main.c school.c -o school
