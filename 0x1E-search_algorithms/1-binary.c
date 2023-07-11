@@ -44,7 +44,7 @@ int bin_search(int *array, size_t min, size_t max, int value)
 
 	printf("Searching in array: ");
 	for (i = min; i < max; i++)
-		printf("%ld%s", i, (i + 1 < max) ? "," : "\n");
+		printf("%ld%s", i, (i + 1 < max) ? ", " : "\n");
 	mid = ((max + min) % 2 == 0) ? ((max + min) / 2) - 1 : ((max + min) / 2);
 
 	if (array[mid] == value)
