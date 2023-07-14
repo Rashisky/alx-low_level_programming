@@ -14,26 +14,22 @@
 int jump_search(int *array, size_t size, int value)
 {
 	size_t blocks, steps, prev;
-	int sqr;
 
 	if (array)
 	{
 		steps = prev = 0;
-		sqr = sqrt(size);
-		blocks = (sqr * sqr == value) ? sqr - 1 : sqr;
+		blocks = ceil(sqrt(size)) - 1;
 		while (steps < size)
 		{
 			if (array[steps] < value)
 				printf("Value checked array[%ld] = [%d]\n", steps, array[steps]);
-			else
+			else if (array[steps] >= value)
 				return (value_range(array, prev, steps, size, value));
 			prev = steps;
 			steps += blocks;
 		}
 		if (prev < steps)
-		{
 			return (value_range(array, prev, steps, size, value));
-		}
 	}
 	return (-1);
 }
