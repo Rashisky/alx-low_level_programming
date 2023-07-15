@@ -78,7 +78,7 @@ int bin_search(int *array, size_t min, size_t max, int value)
  * @base: base number
  * @exponent: the power number
  *
- * Returns: the power of the base
+ * Return: the power of the base
 */
 double _pow(double base, int exponent)
 {
