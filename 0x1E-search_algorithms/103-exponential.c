@@ -1,4 +1,3 @@
-#include <math.h>
 #include "search_algos.h"
 
 /**
@@ -19,7 +18,7 @@ int exponential_search(int *array, size_t size, int value)
 	{
 		n = 0;
 		prev = 0;
-		while ((exp = pow(2, n)) < (int)size)
+		while ((exp = _pow(2, n)) < (int)size)
 		{
 			if (array[exp] == value)
 				return (exp);
@@ -71,5 +70,26 @@ int bin_search(int *array, size_t min, size_t max, int value)
 	result = (array[mid] > value) ? bin_search(array, min, mid, value) :
 			bin_search(array, mid + 1, max, value);
 
+	return (result);
+}
+
+/**
+ * _pow - calculates the exponential power given
+ * @base: base number
+ * @exponent: the power number
+ *
+ * Returns: the power of the base
+*/
+double _pow(double base, int exponent)
+{
+	double result = 1.0;
+	int i;
+
+	if (exponent >= 0)
+		for (i = 0; i < exponent; i++)
+			result *= base;
+	else
+		for (i = 0; i > exponent; i--)
+			result /= base;
 	return (result);
 }
