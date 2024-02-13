@@ -1,2 +1,2 @@
-#!/bin/bash
-FILE descriptors in LINUX: Open(), read(), write() functions
+#!/bin/bas
+File descriptors in Linux - open(), read(), write() functions
